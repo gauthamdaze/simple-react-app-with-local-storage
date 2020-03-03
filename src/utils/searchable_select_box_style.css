@@ -1,0 +1,30 @@
+
+div.searchable-select-box-container{
+	position: absolute;
+	max-height: 300px;
+	margin: 2px 0px;
+	padding: 0;
+	width: 100%;
+    color: #767676;
+    background: #fff;
+	border: 1px solid #ddd;
+	border-top: none;
+    z-index: 2;
+}
+
+div.searchable-select-box-container:focus{
+    outline: none;
+}    
+
+div.searchable-select-box-container>input[type="search"]{
+    width: 100%;
+    min-width: auto;
+    border-radius: 0px;
+    box-shadow: none;
+    border-width: 1px 0px 0px 0px;
+
+}
+
+div.searchable-select-box-container>input[type="search"]:focus{
+    border-width:1px;
+}  
